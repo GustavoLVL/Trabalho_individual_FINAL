@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { criar, listar, buscar, atualizar, remover } from '../controllers/userController';
+import { criar, listar, buscar, atualizar, remover } from '../../controladores/userController';
 
 export const userRoutes = Router();
 
